@@ -1,0 +1,42 @@
+:root {
+  color-scheme: dark;
+  --bg: #121212;
+  --fg: #eee;
+  --accent: #1e88e5;
+  font-family: sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  margin: 0;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background: #1e1e1e;
+  border-bottom: 1px solid #333;
+}
+
+.tabs button {
+  background: none;
+  color: var(--fg);
+  border: 1px solid #333;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.cards {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  background: #1e1e1e;
+  border: 1px solid #333;
+  padding: 1rem;
+  border-radius: 4px;
+}
